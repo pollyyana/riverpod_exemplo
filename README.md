@@ -10,19 +10,6 @@ O projeto apresenta três implementações diferentes do mesmo aplicativo de con
 2. **Riverpod Básico** - Gerenciamento de estado com Riverpod
 3. **Riverpod com Code Generation** - Implementação otimizada com geração de código
 
-## 📸 Screenshots
-
-### Tela Principal
-![Tela Principal](assets/screenshots/main_screen.png)
-
-### Resultado da Consulta
-![Resultado da Consulta](assets/screenshots/result_screen.png)
-
-### Estados de Loading e Erro
-![Estados](assets/screenshots/states_screen.png)
-
-> **Nota:** Para capturar screenshots automaticamente, use o script: `./scripts/capture_screenshots.sh [projeto]`
-
 ## 🏗️ Estrutura do Projeto
 
 ```
