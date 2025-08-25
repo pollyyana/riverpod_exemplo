@@ -1,0 +1,101 @@
+# Arquivos e diretórios específicos do Flutter/Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/pubspec.lock
+
+# Arquivos de IDE
+**/.idea/
+**/.vscode/
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# Arquivos de sistema
+**/.DS_Store
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+
+# Arquivos de log e temporários
+**/*.log
+**/*.tmp
+**/*.cache
+**/*.swp
+**/*.swo
+**/*~
+
+# Arquivos de build e compilação
+**/app.*.symbols
+**/app.*.map.json
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Arquivos de dependências
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+
+# Arquivos de configuração local
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Arquivos de backup
+**/*.bak
+**/*.backup
+**/*.old
+
+# Arquivos de teste
+**/coverage/
+**/.nyc_output/
+**/.coverage/
+
+# Arquivos de documentação gerada
+**/doc/api/
+
+# Arquivos de migração
+**/migrate_working_dir/
+
+# Arquivos específicos do Android
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# Arquivos específicos do iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Arquivos de configuração do VS Code (descomente se quiser ignorar)
+# **/.vscode/
+
+# Arquivos de configuração do IntelliJ (descomente se quiser ignorar)
+# **/.idea/
