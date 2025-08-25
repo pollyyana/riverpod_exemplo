@@ -118,16 +118,6 @@ Contribuições são bem-vindas! Para contribuir:
 4. **Push** para a branch (`git push origin feature/AmazingFeature`)
 5. **Abra** um Pull Request
 
-
-
-
-
-## 🙏 Agradecimentos
-
-- [Riverpod](https://riverpod.dev/) pela excelente biblioteca de gerenciamento de estado
-- [ViaCEP](https://viacep.com.br/) pela API gratuita de consulta de CEP
-- Comunidade Flutter pelo suporte e documentação
-
 ---
 
 ⭐ **Se este projeto te ajudou, considere dar uma estrela!**
