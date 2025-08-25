@@ -26,7 +26,7 @@ O projeto apresenta três implementações diferentes do mesmo aplicativo de con
 ### Estados de Loading e Erro
 ![Estados](assets/screenshots/states_screen.png)
 
-> **Nota:** Para capturar screenshots, execute o app e use `flutter screenshot` ou capture manualmente as telas.
+> **Nota:** Para capturar screenshots automaticamente, use o script: `./scripts/capture_screenshots.sh [projeto]`
 
 ## 🏗️ Estrutura do Projeto
 
@@ -132,6 +132,25 @@ Para executar os testes em cada projeto:
 ```bash
 cd [nome-do-projeto]
 flutter test
+```
+
+## 🛠️ Scripts Úteis
+
+### Captura de Screenshots
+```bash
+# Capturar screenshots de todos os projetos
+./scripts/capture_screenshots.sh
+
+# Capturar screenshots de um projeto específico
+./scripts/capture_screenshots.sh flutter_cep
+./scripts/capture_screenshots.sh viacep_riverpod
+./scripts/capture_screenshots.sh viacep_riverpod_codeGenerator
+```
+
+### Limpeza de Build
+```bash
+# Limpar builds de todos os projetos
+find . -name "build" -type d -exec rm -rf {} + 2>/dev/null || true
 ```
 
 ## 📱 Funcionalidades
