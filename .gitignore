@@ -73,6 +73,14 @@
 # Arquivos de migração
 **/migrate_working_dir/
 
+# Exceções para assets importantes
+!assets/screenshots/
+!assets/screenshots/*.png
+!assets/screenshots/*.jpg
+!assets/screenshots/*.jpeg
+!assets/screenshots/*.gif
+!assets/screenshots/*.svg
+
 # Arquivos específicos do Android
 **/android/.gradle/
 **/android/captures/
