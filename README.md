@@ -1,10 +1,5 @@
 # 📱 Exemplos de Riverpod - Consulta de CEP
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.32.8-blue.svg)](https://flutter.dev/)
-[![Dart](https://img.shields.io/badge/Dart-3.8.1-blue.svg)](https://dart.dev/)
-[![Riverpod](https://img.shields.io/badge/Riverpod-Latest-orange.svg)](https://riverpod.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 Este repositório demonstra a evolução de um aplicativo Flutter de consulta de CEP, desde uma implementação tradicional até o uso avançado do Riverpod com code generation.
 
 ## 🎯 Sobre o Projeto
@@ -115,43 +110,6 @@ Cada projeto contém documentação detalhada:
 - [flutter_lints](https://pub.dev/packages/flutter_lints) - Linting
 - [test](https://pub.dev/packages/test) - Testes unitários
 
-## 🔄 Comparativo das Implementações
-
-| Aspecto | Tradicional | Riverpod | Riverpod + Code Gen |
-|---------|-------------|----------|-------------------|
-| **Complexidade** | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **Manutenibilidade** | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Performance** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Testabilidade** | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Curva de Aprendizado** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-
-## 🧪 Testes
-
-Para executar os testes em cada projeto:
-
-```bash
-cd [nome-do-projeto]
-flutter test
-```
-
-## 🛠️ Scripts Úteis
-
-### Captura de Screenshots
-```bash
-# Capturar screenshots de todos os projetos
-./scripts/capture_screenshots.sh
-
-# Capturar screenshots de um projeto específico
-./scripts/capture_screenshots.sh flutter_cep
-./scripts/capture_screenshots.sh viacep_riverpod
-./scripts/capture_screenshots.sh viacep_riverpod_codeGenerator
-```
-
-### Limpeza de Build
-```bash
-# Limpar builds de todos os projetos
-find . -name "build" -type d -exec rm -rf {} + 2>/dev/null || true
-```
 
 ## 📱 Funcionalidades
 
@@ -173,22 +131,9 @@ Contribuições são bem-vindas! Para contribuir:
 4. **Push** para a branch (`git push origin feature/AmazingFeature`)
 5. **Abra** um Pull Request
 
-### Diretrizes de Contribuição
 
-- Mantenha o código limpo e bem documentado
-- Adicione testes para novas funcionalidades
-- Siga as convenções de nomenclatura do Dart/Flutter
-- Atualize a documentação quando necessário
 
-## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 👨‍💻 Autor
-
-**Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
 
 ## 🙏 Agradecimentos
 
